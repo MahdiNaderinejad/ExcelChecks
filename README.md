@@ -1,2 +1,17 @@
-# ExcelChecks
-In this simple project, two excel spreadsheets are compared to each other. The first one's values are compared to the second one and it will return 0 if didn't exist and 1 for existing values.
+## How to use this code?
+
+### Dependecnies
+Add dependencies using these two commands in your cmd or terminal:
+
+pip install pandas
+pip install openpyxl
+
+### Files
+You should have two files of your values resulted from experiments and real values.
+These files must be spreadsheets and sorted only in the first column with only one single row of header.
+
+### Code
+In the code, change the name of the files and the header values coming from both files.
+
+### Output
+This code will add a column named "Exists" to the existing experiment file and if a given value of this file exists in real, it writes 1 in front of it and 0 otherwise.
