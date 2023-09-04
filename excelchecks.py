@@ -17,7 +17,6 @@ def excelchecks():
 
     # Iterate through each value in 'a.xlsx'
     for _, row_exp in df_exp.iterrows():
-        print(row_exp)
         value_exp = row_exp[header_exp]
 
         # Check if the value exists in 'b.xlsx'
