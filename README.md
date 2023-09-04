@@ -4,6 +4,7 @@
 Add dependencies using these two commands in your cmd or terminal:
 
 pip install pandas
+
 pip install openpyxl
 
 ### Files
